@@ -1,0 +1,70 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: courier;
+}
+
+.background{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.blue{
+    background: #018f97;
+}
+
+.lightblue{
+    background:#6ec0b7;
+}
+
+.dirtywhite{
+    background: #ede1b9;
+}
+
+.namepage_area{
+    height:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center
+}
+
+.namepage_content{
+    text-align: center;
+}
+
+.namepage_content h1{
+    font-size: 60px;
+    color: white;
+}
+
+.namepage_content p{
+    font-size: 40px;
+    color: white;
+    
+}
+
+.informationpage_content{
+    height:100%;
+    display: flex;
+    flex-basis: center;
+    justify-content:center;
+    margin-left:700px;
+    margin-right:80px;
+    align-items: center;
+    text-align: justify;
+    font-size: large;
+}
+
+
+.informationpage_image{
+    height:20%;
+    width: 20%;
+}
